@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bentham&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@import "tailwindcss";
+
+
+body{
+  font-family: "Figtree", sans-serif;
+
+}
+
+.branding{
+  font-family: "Bentham", serif;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
