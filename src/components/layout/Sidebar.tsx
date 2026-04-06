@@ -66,7 +66,9 @@ const Sidebar = () => {
       </nav>
 
       <div className="mt-auto">
+        <a href="https://github.com/princeeeeeej/Fintrack" target="_blank">
         <div className="bg-gray-50 rounded-xl p-4 border border-gray-300">
+          
           <p className="text-[12px] font-semibold text-gray-700">
             Need Help?
           </p>
@@ -74,6 +76,7 @@ const Sidebar = () => {
             Check docs for guidance
           </p>
         </div>
+        </a>
       </div>
     </div>
   );
